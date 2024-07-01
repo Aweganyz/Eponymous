@@ -86,7 +86,7 @@
     font-weight:300 ;
 }
 .edit{
-    font-family: nair400;
+    font-family: nair400Regu;
     font-size: 0.6vw;
     line-height: 0.6vw;
     color: rgba(0, 0, 0, 1);
@@ -109,7 +109,7 @@
         opacity: 0.5;
     }
     .profileinner{
-        width: 95%;
+        width: 90%;
         padding-top: 6%;
     }
     .profilecontent h1{
@@ -157,7 +157,7 @@
         line-height: 10px;
     }
     .aboutinnercontent{
-        width: 95%;
+        width: 90%;
         padding-top: 8%;
     }
     .aboutinnercontent h1{

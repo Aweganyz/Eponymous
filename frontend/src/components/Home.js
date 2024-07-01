@@ -56,10 +56,13 @@ export default function Home() {
                                           <div className='desiinne'>
                                 <img className='hjvuyo' src={iteam.image} />
                                 <div className='jgfi7uy'>
-                                <h1><b>{iteam.titile}</b></h1>
+                                <h1>{iteam.titile}</h1>
                                 </div>
                                 <div className='linethrow'></div>
-                                <div className='fgyg'>{iteam.destination}<img id='jhgfyu' src='/images/arrow.svg' /></div>
+                                <div className='fgyg'>
+                                    <div>{iteam.destination}</div>
+                                    <div><img id='jhgfyu' src='/images/arrow.svg' /></div>
+                                    </div>
                             </div>
                                         </>
                                     )
@@ -71,7 +74,7 @@ export default function Home() {
 
                        <div className='lastfooteend'>
                        <div className='yug8bui'>
-                            <div>Fermentum tristique at <img id='jhgfyulast' src='/images/arrow.svg' /><a href='/alldesigners'><b>View All Designers</b></a></div>
+                            <div className='lasjio'><div>Fermentum tristique at</div> <div className='lastright'><img id='jhgfyulast' src='/images/arrow.svg' /><a href='/alldesigners'>View All Designers</a></div></div>
                          </div>
                        </div>
                     </div>

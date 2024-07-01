@@ -12,18 +12,7 @@ function Slidermob() {
       slidesPerView: 3,
       centeredSlides: true,
       loop: true,
-      spaceBetween: 45,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        renderBullet: function (index, className) {
-          return '<span class="' + className + '">' + (index + 1) + '</span>';
-        },
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
+      spaceBetween: 40,
     });
 
     // Optionally, you might need to update the swiper when the component is unmounted
@@ -45,8 +34,7 @@ function Slidermob() {
       <div className="swiper-slide" id='silder1'></div>
       <div className="swiper-slide" id='silder1'></div>
     </div>
-    <div className="swiper-button-next"></div>
-    <div className="swiper-button-prev"></div>
+
 
   </div>
 

@@ -40,7 +40,7 @@ const Footer = () => {
 
 <div className='f3122'>
 
-   <div>
+   <div className='kastcghvj'>
    <div id='field'>hello@eponymous.com</div>
    <div id='field' className='f322b1'>Follow us at 
       <img  src='/images/li.svg' />

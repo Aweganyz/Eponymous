@@ -45,11 +45,13 @@ export default function ProductSearch() {
                 {loading ? <div className="loadersea"><Loader /></div> :
                     <div className="innersearch">
                         <div className="seacrchleft">
+
                             <div className="innerlogin22">HOME/ ALL DESINGERS</div>
                             <div className="serinnerlef">
                                 154 Results in
                             </div>
                             <div className="serariht">
+
                                 <div class="accordion-item" id="hgcuyt1">
                                     <h2 class="accordion-header" id="flush-headingOne">
                                         <button
@@ -72,15 +74,23 @@ export default function ProductSearch() {
                                     >
                                         <div class="accordion-body" id="ytry">
                                             {categories.map(category =>
-                                                <p style={{
-                                                    cursor: "pointer",
-                                                    listStyleType: "none"
-                                                }}
-
-                                                    key={category}
-                                                    onClick={() => {
+                                                <>
+                                                 <div className="ytrdyfguh">
+                                                 <input  type="radio" id={category} name={category} value={category} onClick={() => {
                                                         setCategory(category)
-                                                    }}>{category}</p>
+                                                    }} key={category}  />
+                                                    <label for={category}> {category}</label><br />
+                                                 </div>
+                                                </>
+                                                // <p style={{
+                                                //     cursor: "pointer",
+                                                //     listStyleType: "none"
+                                                // }}
+
+                                                //     key={category}
+                                                //     onClick={() => {
+                                                //         setCategory(category)
+                                                //     }}>{category}</p>
 
                                             )}
 
@@ -88,6 +98,9 @@ export default function ProductSearch() {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+
                         </div>
 
                         <div className="secondsearch">
@@ -116,20 +129,15 @@ export default function ProductSearch() {
                                         <div class="accordion-body" id="ytry">
 
                                             {sellers.map(seller =>
-                                                // console.log(seller)
-                                                <p
-                                                    style={{
-                                                        cursor: "pointer",
-                                                        listStyleType: "none"
-                                                    }}
-                                                    key={seller}
-                                                    onClick={() => {
-                                                        setseller(seller)
-                                                    }}
-                                                >
-                                                    {seller}
-                                                </p>
-
+                                            <>
+                                             
+                                                  <div className="ytrdyfguh1">
+                                                  <input  type="radio" id={seller} name={seller} value={seller} onClick={() => {
+                                                         setseller(seller)
+                                                     }} key={seller}  />
+                                                     <label for={seller}> {seller}</label><br />
+                                                  </div>
+                                                  </>
                                             )}
 
 
@@ -160,8 +168,17 @@ export default function ProductSearch() {
                                     >
                                         <div class="accordion-body" id="ytry">
 
-                                            <p>one</p>
-                                            <p>one</p>
+                                        {sellers.map(seller =>
+                                            <>
+                                             
+                                                  <div className="ytrdyfguh1">
+                                                  <input  type="radio" id={seller} name={seller} value="one" onClick={() => {
+                                                         setseller(seller)
+                                                     }} key={seller}  />
+                                                     <label for={seller}>One</label><br />
+                                                  </div>
+                                                  </>
+                                            )}
                                         </div>
                                     </div>
                                 </div>
@@ -189,8 +206,17 @@ export default function ProductSearch() {
                                     >
                                         <div class="accordion-body" id="ytry">
 
-                                            <p>one</p>
-                                            <p>one</p>
+                                        {sellers.map(seller =>
+                                            <>
+                                             
+                                                  <div className="ytrdyfguh1">
+                                                  <input  type="radio" id={seller} name={seller} value="one" onClick={() => {
+                                                         setseller(seller)
+                                                     }} key={seller}  />
+                                                     <label for={seller}>One</label><br />
+                                                  </div>
+                                                  </>
+                                            )}
                                         </div>
                                     </div>
                                 </div>
@@ -218,8 +244,17 @@ export default function ProductSearch() {
                                     >
                                         <div class="accordion-body" id="ytry">
 
-                                            <p>one</p>
-                                            <p>one</p>
+                                        {sellers.map(seller =>
+                                            <>
+                                             
+                                                  <div className="ytrdyfguh1">
+                                                  <input  type="radio" id={seller} name={seller} value="one" onClick={() => {
+                                                         setseller(seller)
+                                                     }} key={seller}  />
+                                                     <label for={seller}>One</label><br />
+                                                  </div>
+                                                  </>
+                                            )}
                                         </div>
                                     </div>
                                 </div>
@@ -229,7 +264,7 @@ export default function ProductSearch() {
                         <div className="secondsearchMOb">
 
                             <div className="hytftyiug">
-                            <div class="accordion-item" id="hgcuyt1">
+                                <div class="accordion-item" id="hgcuyt1">
                                     <h2 class="accordion-header" id="flush-headingOne">
                                         <button
                                             class="accordion-button  collapsed"
@@ -250,16 +285,24 @@ export default function ProductSearch() {
                                         data-bs-parent="#accordionFlushExample"
                                     >
                                         <div class="accordion-body" id="ytry">
-                                            {categories.map(category =>
-                                                <p style={{
-                                                    cursor: "pointer",
-                                                    listStyleType: "none"
-                                                }}
-
-                                                    key={category}
-                                                    onClick={() => {
+                                        {categories.map(category =>
+                                                <>
+                                                 <div className="ytrdyfguh">
+                                                 <input  type="radio" id={category} name={category} value={category} onClick={() => {
                                                         setCategory(category)
-                                                    }}>{category}</p>
+                                                    }} key={category}  />
+                                                    <label for={category}> {category}</label><br />
+                                                 </div>
+                                                </>
+                                                // <p style={{
+                                                //     cursor: "pointer",
+                                                //     listStyleType: "none"
+                                                // }}
+
+                                                //     key={category}
+                                                //     onClick={() => {
+                                                //         setCategory(category)
+                                                //     }}>{category}</p>
 
                                             )}
 
@@ -288,22 +331,18 @@ export default function ProductSearch() {
                                     >
                                         <div class="accordion-body" id="ytry">
 
-                                            {sellers.map(seller =>
-                                                // console.log(seller)
-                                                <p
-                                                    style={{
-                                                        cursor: "pointer",
-                                                        listStyleType: "none"
-                                                    }}
-                                                    key={seller}
-                                                    onClick={() => {
-                                                        setseller(seller)
-                                                    }}
-                                                >
-                                                    {seller}
-                                                </p>
-
+                                        {sellers.map(seller =>
+                                            <>
+                                             
+                                                  <div className="ytrdyfguh1">
+                                                  <input  type="radio" id={seller} name={seller} value={seller} onClick={() => {
+                                                         setseller(seller)
+                                                     }} key={seller}  />
+                                                     <label for={seller}> {seller}</label><br />
+                                                  </div>
+                                                  </>
                                             )}
+
 
 
                                         </div>
@@ -332,9 +371,17 @@ export default function ProductSearch() {
                                         data-bs-parent="#accordionFlushExample"
                                     >
                                         <div class="accordion-body" id="ytry">
-
-                                            <p>one</p>
-                                            <p>one</p>
+                                        {sellers.map(seller =>
+                                            <>
+                                             
+                                                  <div className="ytrdyfguh1">
+                                                  <input  type="radio" id={seller} name={seller} value="one" onClick={() => {
+                                                         setseller(seller)
+                                                     }} key={seller}  />
+                                                     <label for={seller}>One</label><br />
+                                                  </div>
+                                                  </>
+                                            )}
                                         </div>
                                     </div>
                                 </div>
@@ -360,19 +407,28 @@ export default function ProductSearch() {
                                     >
                                         <div class="accordion-body" id="ytry">
 
-                                            <p>one</p>
-                                            <p>one</p>
+                                        {sellers.map(seller =>
+                                            <>
+                                             
+                                                  <div className="ytrdyfguh1">
+                                                  <input  type="radio" id={seller} name={seller} value="one" onClick={() => {
+                                                         setseller(seller)
+                                                     }} key={seller}  />
+                                                     <label for={seller}>One</label><br />
+                                                  </div>
+                                                  </>
+                                            )}
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        
+
                             <div >
                                 <div class="accordion-item" id="hgcuyt1">
                                     <h2 class="accordion-header" id="flush-headingFour">
                                         <button
                                             class="accordion-button collapsed"
-                                            id="uyfgydon"
+                                            id="uyfgydonRED"
                                             type="button"
                                             data-bs-toggle="collapse"
                                             data-bs-target="#flush-collapseFour"
@@ -390,8 +446,17 @@ export default function ProductSearch() {
                                     >
                                         <div class="accordion-body" id="ytry">
 
-                                            <p>one</p>
-                                            <p>one</p>
+                                        {sellers.map(seller =>
+                                            <>
+                                             
+                                                  <div className="ytrdyfguh1">
+                                                  <input  type="radio" id={seller} name={seller} value="one" onClick={() => {
+                                                         setseller(seller)
+                                                     }} key={seller}  />
+                                                     <label for={seller}>One</label><br />
+                                                  </div>
+                                                  </>
+                                            )}
                                         </div>
                                     </div>
                                 </div>

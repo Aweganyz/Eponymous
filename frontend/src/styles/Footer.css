@@ -44,6 +44,7 @@
 }
 .f22b{
     font-size: 0.9vw;
+    letter-spacing: 0.01046vw;
     font-family: nair400Regu;
     color: rgba(0, 0, 0, 1);
     /* font-size: 1.3vw; */
@@ -99,6 +100,7 @@
     }
     #field{
         font-size: 15.2px;
+        padding: 1% 0;
     }
     .f3122{
       text-align: center;
@@ -129,8 +131,8 @@
       
     }
     .f22a{
-        width:80%;
-        padding: 2% 0;
+        width:90%;
+        padding: 4.5% 0;
         display: flex;
         justify-content: space-around;
     
@@ -140,9 +142,11 @@
         flex-direction: column-reverse;
     }
     .f31{
+        /* padding: 5% 0; */
         width: 100%;
       
     }
+    
     .f31a{
         width: 100%;
     }

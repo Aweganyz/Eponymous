@@ -68,7 +68,7 @@
 }
 .nav002{
     font-weight: 400;
-    font-family: "fields-display", sans-serif;
+    font-family: nair400Regu;
     font-size: 1.12vw;
     line-height: 1.12vw;
     color:  rgba(30, 30, 30, 1);
@@ -83,7 +83,7 @@
     /* padding-right: 2%; */
 }
 #seearch{
-    padding-right: 20%;
+    padding-right: 55%;
 }
 
 .nav03{
@@ -169,7 +169,7 @@
         display: block;
         /* display: flex; */
         width: 100%; 
-        border: 1px solid rgb(14, 9, 9);
+        /* border: 1px solid rgb(14, 9, 9); */
         padding-top: 3%;
         padding-bottom: 3%;
         text-align: start;

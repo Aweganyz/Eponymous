@@ -22,7 +22,7 @@
 }
 .desiinne h1{
     font-weight: 500;
-    font-family: nair400;
+    font-family: nair400Semibold;
     font-size: 1.2vw;
     padding: 1% 0;
 }
@@ -37,15 +37,20 @@
     padding-left: 2%;
     padding-right: 2%;
 }
+.lastright{
+    /* border: 1px solid red; */
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
 #jhgfyulast{
-    width: 2.27vw;
-    height: 2.27vw;
-    /* width: 60%; */
-    padding-left: 2%;
-    padding-right: 2%
+    width: 1.6vw;
+    height: 1.6vw;
 }
 .lasthome{
-    padding: 8% 0;
+    /* padding: 8% 0; */
+    padding-top: 8%;
+    padding-bottom: 10%;
 }
 .yug8bui{
     display: flex;
@@ -57,6 +62,7 @@
     justify-content: center;
 }
 .yug8bui a{
+    font-family: nair400Regu;
     color: rgba(30, 30, 30, 1);
 }
 .jtf7iyub{
@@ -87,8 +93,13 @@
     padding-top: 0.1%;
 }
 .fgyg{
-    text-align: center;
-    font-family: nair400;
+    /* border: 1px solid red; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    font-family: nair400Regu;
     font-size: 0.9vw;
     line-height: 0.9vw;
     font-weight:400 ;
@@ -103,10 +114,20 @@
 .lastfooteend{
     display: flex;
     justify-content: center;
-    padding-top: 5%;
+    padding-top: 4.5%;
+}
+.lasjio{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
 }
 
 @media (max-width : 769px) {
+    .lasjio{
+       display: inline;
+    column-gap: 0;
+
+    }
     .Deginershome{
         /* width: 100%; */
       display: inline;
@@ -119,7 +140,7 @@
 margin-top: 3%;
     }
     .Homeinner{
-        width: 95%;
+        width: 90%;
     }
     .desiinne h1{
         font-size: 18px;
@@ -157,7 +178,7 @@ margin-top: 3%;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 40%;
+        width: 56%;
         /* width: 50%; */
         padding-top: 5%;
         color: rgba(30, 30, 30, 1);

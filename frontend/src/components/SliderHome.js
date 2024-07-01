@@ -12,18 +12,7 @@ function SliderHome() {
       slidesPerView: 3,
       centeredSlides: true,
       loop: true,
-      spaceBetween: 145,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        renderBullet: function (index, className) {
-          return '<span class="' + className + '">' + (index + 1) + '</span>';
-        },
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
+      spaceBetween: 100,   
     });
 
     // Optionally, you might need to update the swiper when the component is unmounted
@@ -45,8 +34,8 @@ function SliderHome() {
       <div className="swiper-slide" id='silder2'></div>
       <div className="swiper-slide" id='silder3'></div>
     </div>
-    <div className="swiper-button-next"></div>
-    <div className="swiper-button-prev"></div>
+    {/* <div className="swiper-button-next"></div>
+    <div className="swiper-button-prev"></div> */}
 
   </div>
 

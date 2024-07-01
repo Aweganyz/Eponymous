@@ -6,8 +6,7 @@ export default function Product({ product }) {
         <>
 
             <div id="uygh">
-                <div className="producgug">
-                    <div className="datasprodu">
+          
                         {product.images.length > 0 &&
                             <img
                                 className="imageprod"
@@ -19,22 +18,21 @@ export default function Product({ product }) {
                                 <div className='uyfguhgf' >
                                 <span>{product.description}</span>
                                 <br/>
-                                <Link to={`/alldesigners/${product._id}`}><b>{product.name}</b></Link>
+                                <Link to={`/alldesigners/${product._id}`}>{product.name}</Link>
                                 </div>
                                 <div className='lineprodict'></div>
                                 <div className='iuyhgf7y6u8ig'>
-                                <span className='areapoop'>From</span><b > {product.seller}</b>
+                                <span className='areapoop'>From</span> {product.seller}
                                 </div>
                                 <div className='lineprodict'></div>
 
                                 <div className='onelastview'>
-                                <Link to={`/alldesigners/${product._id}`} className="view_btn"><p><b>View Products</b><img id='imageslop' src='/images/arrow.svg' /></p></Link>
+                                <Link to={`/alldesigners/${product._id}`} className="view_btn"><div className='ytdftyui'><b>View Products</b><img id='imageslop' src='/images/arrow.svg' /></div></Link>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+     
         </>
 
     )

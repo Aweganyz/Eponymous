@@ -1,0 +1,171 @@
+.Home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.Homeinner{
+    width: 90%;
+    /* border: 1px solid red; */
+}
+.Deginershome{
+    /* border: 1px solid red; */
+    display: flex;
+    column-gap: 1.5%;
+    justify-content: space-between;
+}
+.desiinne{
+    width: 25%;
+}
+.desiinne img{
+    width: 100%;
+}
+.desiinne h1{
+    font-weight: 500;
+    font-family: nair400;
+    font-size: 1.2vw;
+    padding: 1% 0;
+}
+.linethrow{
+    width: 100%;
+    height: 1px;
+    background-color:rgba(187, 187, 187, 1)    ;
+}
+#jhgfyu{
+    width: 2.27vw;
+    height: 2.27vw;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#jhgfyulast{
+    width: 2.27vw;
+    height: 2.27vw;
+    /* width: 60%; */
+    padding-left: 2%;
+    padding-right: 2%
+}
+.lasthome{
+    padding: 8% 0;
+}
+.yug8bui{
+    display: flex;
+    /* column-gap: 20px; */
+    font-family: nair400;
+    font-size: 1.1vw;
+    line-height: 1.1vw;
+    font-weight:400 ;
+    justify-content: center;
+}
+.yug8bui a{
+    color: rgba(30, 30, 30, 1);
+}
+.jtf7iyub{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.innercard{
+    width: 90%;
+}
+.hftfuyu{
+    margin-left: 5%;
+    /* padding-right:5%; */
+}
+.parahome{
+    font-family: nair400;
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+    font-weight:300 ;
+}
+.homedesc{
+    font-size: 1.9vw;
+    line-height: 2.2vw;
+    font-family: "fields-display", sans-serif;
+    font-weight: 500;
+    padding-bottom: 1.7%;
+    padding-top: 0.1%;
+}
+.fgyg{
+    text-align: center;
+    font-family: nair400;
+    font-size: 0.9vw;
+    line-height: 0.9vw;
+    font-weight:400 ;
+    padding-top: 1.4%;
+    color: rgba(30, 30, 30, 1);
+}
+.jgfi7uy{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+.lastfooteend{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+@media (max-width : 769px) {
+    .Deginershome{
+        /* width: 100%; */
+      display: inline;
+      padding-top: 5%;
+      /* border: 1px solid red; */
+    }
+    .desiinne{
+        width: 100%;
+      /* border: 1px solid red; */
+margin-top: 3%;
+    }
+    .Homeinner{
+        width: 95%;
+    }
+    .desiinne h1{
+        font-size: 18px;
+    }
+    .parahome{
+       font-size: 18px;
+       margin-top: 10%;
+       line-height: 18px;
+    }
+    .homedesc{
+  font-size: 24px;
+  line-height: 24px;
+    }
+    .fgyg{
+        font-size: 18px;
+        line-height: 24px;
+        padding-top: 4%;
+    }
+    #jhgfyu{
+        width: 40px;
+        height: 15px;
+        /* border: 1px solid red; */
+        /* padding-top: 2%; */
+    }
+    #jhgfyulast{
+        width: 25px;
+        height: 15px;
+    }
+    .lastfooteend{
+        display: flex;
+        justify-content: center;
+    }
+    .yug8bui{
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        /* width: 50%; */
+        padding-top: 5%;
+        color: rgba(30, 30, 30, 1);
+        font-size: 15.93px;
+        line-height: 20.93px;
+        text-align: center;
+    }
+    .hjvuyo{
+        padding-top: 2%;
+    }
+}

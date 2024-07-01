@@ -1,0 +1,341 @@
+[
+
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "Bengaluru",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "female",
+        "seller": "Bengaluru",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "female",
+        "seller": "Bengaluru",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "female",
+        "seller": "Bengaluru",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "chennai",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "chennai",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "Bengaluru",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "chennai",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "chennai",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "female",
+        "seller": "ooty",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "ooty",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "Bengaluru",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "Bengaluru",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "Bengaluru",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "ooty",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "Bengaluru",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "Bengaluru",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "Bengaluru",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "Bengaluru",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "Bengaluru",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    },
+    {
+        "name": "Name SureName",
+        "price": 50,
+        "description": "Accessories",
+        "ratings": 5,
+        "images": [
+            {
+                "image": "/images/1.jpg"
+            }
+        ],
+        "category": "male",
+        "seller": "ooty",
+        "stock": 5,
+        "numOfReviews": 15,
+        "reviews": []
+    }
+
+    
+]

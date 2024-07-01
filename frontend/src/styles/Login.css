@@ -1,0 +1,400 @@
+.wrapper{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    margin-top: 1%;
+    justify-content: center;
+}
+.headerlogin{
+    width: 100%;
+    padding: 3% 0;
+    display: flex;
+    justify-content: center;
+}
+.headerlogindf{
+    width: 100%;
+    padding: 2% 0;
+    display: flex;
+    justify-content: center;
+}
+#Acco1{
+    font-family: nair400;
+    background-color: white;
+    color:rgba(30, 30, 30, 1);
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+    border-radius: 0;
+    font-weight:300 ;
+}
+.accordion-body{
+    background-color: white;
+}
+.innerbod{
+    font-family: nair400;
+    font-size: 1vw;
+    background-color: white;
+    color: #181818;
+    line-height: 1.3vw;
+    font-weight:300 ;
+}
+.innerlogin{
+    width: 90%;
+    font-family: nair400;
+    font-size: 0.8vw;
+    line-height: 0.8vw;
+    font-weight:400;
+    letter-spacing: 2%;
+    color: rgba(0, 0, 0, 1);
+}
+.innerlogin22{
+    display: none;
+    width: 90%;
+    font-family: nair400;
+    font-size: 0.8vw;
+    line-height: 0.8vw;
+    font-weight:400;
+    letter-spacing: 2%;
+    color: rgba(0, 0, 0, 1);
+}
+.wrapperinner{
+    width: 75%;
+    /* border: 1px solid red; */
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapperinner2{
+    width: 70%;
+    /* border: 1px solid red; */
+    padding-bottom: 7%;
+    display: flex;
+    overflow-y: hidden;
+    justify-content: space-between;
+}
+.loginleft{
+    width: 40%;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.loginleftr{
+    width: 50%;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+#leftid{
+    display: flex;
+}
+.linelogin{
+    width: 1px;
+    height: 95%;
+    background-color: rgba(0, 0, 0, 1);
+}
+.lineloginrrr{
+    width: 1px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+}
+.form-group input{
+    width: 100%;
+    padding: 5% 0;
+    border-bottom: 1px solid rgba(163, 163, 163, 1);
+    border-top: none;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    font-family: nair400;
+    font-size: 0.9vw;
+    line-height: 0.9vw;
+    font-weight:300 ;
+    padding-top: 8%;
+    
+}
+.form-group input:focus{
+    outline: none;
+}
+#accoutn{
+    font-family: "fields-display", sans-serif;
+    font-size: 2.6vw;
+    line-height: 2.6vw;
+    font-weight:400;
+    color: rgba(30, 30, 30, 1);
+}
+.helpf{
+    padding-top: 2%;
+}
+.help{
+    padding-top: 7.5%;
+}
+
+.btnlogin{
+    font-family: nair400;
+    font-size: 1.04vw;
+    line-height: 1.04vw;
+    font-weight:400;
+    margin-top: 14%;
+    /* border: 1px solid red;  */
+    background: transparent;
+    width: 100%;
+    padding: 3%;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: rgba(30, 30, 30, 1);
+}
+.fpass{
+    font-family: nair400;
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+    font-weight:300 ;
+    padding-top: 1%;
+    /* padding: 0; */
+   padding-top: 3% ;
+   color: #181818;
+}
+.fpass a{
+   color: #181818;
+}
+.shadow-lg{
+    padding: 5% 0;
+}
+.shadow-lgReg{
+    padding-top: 5% ;
+}
+.shadow-lg1{
+    padding-left: 15%;
+    /* padding-top: 0% ; */
+    width: 100%;
+    /* border: 1px solid red; */
+
+}
+#secondbtn{
+    margin-top: 29%;
+}
+
+
+.pararegiste{
+    width: 80%;
+ margin: 5% 0;
+ color: rgba(30, 30, 30, 1);
+ font-family: nair400;
+ font-size: 1.3vw;
+ line-height: 1.5vw;
+ font-weight:300 ;
+ padding-top: 1%;
+}
+.pararegiste1{
+    margin: 3% 0;
+    font-family: nair400;
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+    font-weight:300 ;
+    /* padding-top: 1%; */
+}
+#Accolast{
+    border-bottom: 0.2px solid rgba(163, 163, 163, 1);
+}
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='black' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+    transition: all 0.5s;
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='black' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+  }
+  .accordion{
+   /* border: 1px solid red; */
+   width: 80%;
+  }
+
+  #Acco1{
+    /* border: 1px solid red; */
+    padding-left: 0;
+  }
+  
+  .accordion-button:not(.collapsed){
+    background-color: white;
+    box-shadow: none;
+    color: #181818;
+    }
+.contactsu{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+}
+.imagephone{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    column-gap: 5%;
+    font-family: nair400;
+    font-size: 1.3vw;
+    line-height: 1.3vw;
+    font-weight:300 ;
+    /* border: 1px solid red; */
+}
+.imagephone img{
+    width: 1.3vw;
+    height: 1.04vw;
+}
+
+input[type="file"] {
+    display: none;
+  }
+  
+  .custom-file-upload{
+    width: 100%;
+    margin-top: 6%;
+    text-align: center;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 20px 0;
+    cursor: pointer;
+ 
+  }
+  .custom-file-upload p{
+    font-size: 0.7vw;
+    font-family: nair400;
+    line-height: 1vw;
+    font-weight:300 ;
+  }
+  #jgfyu{
+    display: flex;
+    column-gap: 5%;
+  }
+  .avatar{
+    width: 5vw;
+    height: 1vw;
+  }
+  .avatar img{
+    width: 100%;
+    height: 100%;
+  }
+  .uploaded{
+    color: green;
+  }
+
+  @media (max-width : 769px) {
+    .custom-file-upload p {
+        font-size: 15px;
+        line-height: 15px;
+      }
+    .wrapperinner{
+        width: 95%;
+        padding-bottom:20%;
+        display: inline;
+        /* border: 1px solid red; */
+     }
+     #liop{
+        display: none ;
+     }
+     .wrapperinner2{
+        width: 95%;
+        /* border: 1px solid red; */
+        display: inline;
+        padding-bottom: 18%;
+       }
+       .shadow-lg1{
+        padding-left: 0%;
+
+    
+    }
+    .accordion{
+        /* border: 1px solid red; */
+        width: 100%;
+       }
+    .loginleftr{
+        width: 100%;
+        padding-top: 5%;
+    }
+     .linelogin{
+        width: 100%;
+        margin: 4% 0;
+        height: 1px;
+     }
+     .loginleft{
+        width: 100%;
+     }
+
+     .lineloginrrr{
+     display: none;
+    }
+     #secondbtn{
+        margin: 0;
+     }
+     .btnlogin{
+        margin: 5% 0;
+     }
+     #accoutn{
+       font-size: 32px;
+       line-height: 32px;
+    }
+    .headerlogin{
+        display: none;
+    }
+    .form-group input{
+      font-size: 15px;
+      line-height: 18px;
+      padding: 5% 0;     
+
+    }
+    .btnlogin{
+        margin-top: 10%;
+  font-size: 16px;
+line-height: 14px;
+}
+.fpass{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    line-height: 22px;
+}
+.pararegiste{
+    width: 100%;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+#Acco1{
+    font-size: 20px;
+    line-height: 24px
+}
+
+.innerbod{
+    font-size: 20px;
+    line-height: 24px
+}
+.pararegiste1{
+    font-size: 17px;
+    line-height: 17px;
+}
+
+.contactsu{
+    width: 100%;
+margin-top: 8%;
+}
+.imagephone{
+font-size: 15px;
+}
+.imagephone img{
+    width: 20px;
+    height: 16px;
+}
+.shadow-lg1{
+    padding: 0;
+    /* margin-top: 8%; */
+    /* padding-top: 10%; */
+}
+#jgfyu{
+display: inline;
+}
+.shadow-lg{
+    /* margin-top: 4%; */
+    padding-top: 8%;
+}
+.innerlogin22{
+    display: block;
+    margin-top: 8%;
+    font-size: 15px;
+}
+
+    
+  }

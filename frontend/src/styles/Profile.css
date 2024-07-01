@@ -1,0 +1,171 @@
+.Profile{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.profileinner{
+    width: 90%;
+}
+.profilecontent{
+    text-align: center;
+    padding-top: 7.5%;
+    padding-bottom: 1.5%;
+}
+.profilecontent h1{
+    font-size: 2.6vw;
+    line-height: 2.6vw;
+    font-family: "fields-display", sans-serif;
+    font-weight: 400;
+}
+.profilecontent p{
+    font-family: nair400;
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+    font-weight:300 ;
+    padding-top: 0.8%;
+    /* display: none; */
+    /* border: 1px solid red; */
+}
+.accde{
+    font-family: "fields-display", sans-serif;
+    font-size: 1.3vw;
+    line-height: 1.3vw;
+    font-weight:400;
+}
+.profiledatashead{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.profiledatas{
+    width: 60%;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.innerheadprofile{
+    width: 60%;
+    /* border: 1px solid red; */
+}
+#logout{
+    padding-top: 20% ;
+    opacity: 0.5;
+    cursor: pointer;
+    color: #181818;
+}
+#logout1{
+    padding-top:44% ;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.innerheadprofile div{
+    /* height: 10vh; */
+    /* padding-bottom: 0; */
+    /* border: 1px solid red; */
+    /* border-bottom:/ 1px solid rgba(0, 0, 0, 1); */
+    /* padding: 2% 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    /* padding: 0; */
+    /* margin: 0; */
+    
+}
+#jiojio{
+    padding-top: 6%;
+}
+
+
+.paraprof{
+    font-family: nair400;
+    font-size: 0.9vw;
+    line-height: 1.1vw;
+    font-weight:300 ;
+}
+.edit{
+    font-family: nair400;
+    font-size: 0.6vw;
+    line-height: 0.6vw;
+    color: rgba(0, 0, 0, 1);
+    opacity: 0.5;
+    font-weight:400 ;
+}
+.lineopj{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 1);
+}
+#logoutmob{
+    display: none;
+}
+
+@media (max-width : 769px) {
+    #logoutmob{
+        display: block;
+        margin-top: 7%;
+        opacity: 0.5;
+    }
+    .profileinner{
+        width: 95%;
+        padding-top: 6%;
+    }
+    .profilecontent h1{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .profilecontent p{
+      font-size: 17px;
+      line-height: 17px;
+    }
+    .profiledatas{
+        width: 100%;
+        display: inline;
+    }
+    .innerheadprofile{
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    #logout{
+        padding: 0;
+    }
+    #logout1{
+        display: none;
+    }
+    .paraprof{
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .accde{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .ytfdyugih{
+        display: flex;
+        column-gap: 20px;
+    }
+
+    .ytufug{
+        margin-top: 5%;
+        /* border-bottom: 0.5px solid #181818; */
+
+    }
+    .edit{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .aboutinnercontent{
+        width: 95%;
+        padding-top: 8%;
+    }
+    .aboutinnercontent h1{
+font-size: 24px;
+line-height: 24px;
+    }
+    .aboutinnercontent p{
+font-size: 16px;
+line-height: 20px;
+    }
+}

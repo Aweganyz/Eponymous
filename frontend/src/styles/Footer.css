@@ -1,0 +1,154 @@
+.f1{
+ 
+    background: #F1F1F1;
+
+}
+.f2{
+    border: 1px solid rgb(8, 5, 5);
+    border-style: dotted;
+    border-top: none;
+    border-left: none;
+    border-radius: none;
+}
+.f21{
+   padding-top: 2%;
+   padding-bottom: 1%;
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 100%;
+ 
+}
+.f21a{
+    font-size: 1.56vw;
+    list-style: 1.5vw;
+    font-weight: 500;
+    font-family: "fields-display", sans-serif;
+}
+.f22{
+    justify-content: center;
+    display: flex;
+    padding-top:1%;
+    padding-bottom: 2%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.f22a{
+    /* border: 1px solid red; */
+    width:23%;
+    display: flex;
+    /* gap: 10%; */
+    /* column-gap: 10%; */
+    justify-content: space-between;
+
+
+}
+.f22b{
+    font-size: 0.9vw;
+    font-family: nair400;
+    color: rgba(0, 0, 0, 1);
+    /* font-size: 1.3vw; */
+    line-height: 1vw;
+    font-weight:400 ;
+  
+}
+#field{
+    font-size: 1.1vw;
+    list-style: 1.1vw;
+    font-weight: 500;
+    font-family: "fields-display", sans-serif;
+}
+#orivacy{
+    font-family: mazzard400;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 1.3vw;
+}
+
+.f33{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    column-gap: 2%;
+  
+}
+.f31{
+
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    column-gap: 4.5%;
+    padding: 2% 0;
+}
+.f322b1 img{
+    padding-left: 10px;
+    align-items: center;
+    /* display: flex; */
+    /* width: 100%; */
+}
+.f3aaa{
+    display: none;
+}
+.privacy{
+    opacity: 0.5;
+}
+
+
+@media (max-width:767px) {
+    #orivacy{
+      font-size: 10px;
+    }
+    #field{
+        font-size: 15.2px;
+    }
+    .f3122{
+      text-align: center;
+      padding: 3% 0;
+    }
+    .ytguh{
+        opacity: 0.5;
+        padding-top: 4.5%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .f33{
+        display: none;
+    }
+    .f3aaa{
+        display: block;
+    }
+    .f21a{
+        font-size: 24px;
+        font-weight: 500;
+      
+    }
+    .f22b{
+        font-size: 14px;
+        font-weight: 400;
+      
+    }
+    .f22a{
+        width:80%;
+        padding: 2% 0;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .f3{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .f31{
+        width: 100%;
+      
+    }
+    .f31a{
+        width: 100%;
+    }
+  .f311{
+       font-size: 10px;
+  }
+
+
+}

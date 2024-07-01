@@ -1,0 +1,212 @@
+.navbar1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+.navbarHome{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid rgba(0, 0, 0, 1); */
+}
+
+.navlap{
+    width: 20%;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   /* border: 1px solid red; */
+    /* border: 1px solid rgb(14, 9, 9); */
+     display: flex;
+     justify-content: center;
+     /* align-items: center; */
+
+}
+.navbarinner{
+    width: 90%;
+    padding: 1% 0;
+   /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-brand1 a{
+    font-family: "fields-display", sans-serif;
+    font-weight: 500;
+    font-size: 2.38vw;
+    text-align: start;
+    color: rgba(30, 30, 30, 1);
+    align-items: center;
+}
+.navleft{
+    width: 20%;
+}
+.nav01{
+    width: 100%;
+    /* border: 1px solid rgb(14, 9, 9); */
+    font-weight: 500;
+    font-size: 2.38vw;
+    text-align: start;
+    align-items: center;
+
+}
+.nav02{
+    width: 60%;
+    /* border: 1px solid rgb(14, 9, 9); */
+  
+    display: flex;
+    justify-content: center;
+}
+.nav02a{
+
+    /* border: 1px solid rgb(14, 9, 9); */
+
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav002{
+    font-weight: 400;
+    font-family: "fields-display", sans-serif;
+    font-size: 1.12vw;
+    line-height: 1.12vw;
+    color:  rgba(30, 30, 30, 1);
+}
+.navright{
+    width: 20%;
+    display: flex;
+    /* column-gap: 20px; */
+    /* border: 1px solid red; */
+    justify-content: flex-end;
+    /* column-gap: 20px; */
+    /* padding-right: 2%; */
+}
+#seearch{
+    padding-right: 20%;
+}
+
+.nav03{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    /* gap: 5%; */
+    /* border: 1px solid rgb(14, 9, 9); */
+
+ 
+}
+.nav03a{
+    align-items: center;
+/* border: 1px solid red; */
+    width: 25%;
+    display: flex;
+    /* column-gap: 20%; */
+    justify-content:space-between;
+
+}
+.mav003{
+    width: 100%;
+
+}
+.nav003 img{
+    width: 1.45vw;
+    height: 1.45vw;
+ 
+}
+
+.navmob{
+    display: none;
+}
+.vyttfy{
+    font-weight: 400;
+    font-size: 1.12vw;
+    font-family: "fields-display", sans-serif;
+    line-height: 1.12vw;
+    color:  rgba(30, 30, 30, 1);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+.ytfyuu{
+    font-weight: 400;
+    font-size: 1.12vw;
+    line-height: 1.12vw;
+    font-family: "fields-display", sans-serif;
+    color:  rgba(30, 30, 30, 1);
+    display: none;
+    width: 7vw;
+    background-color: #181818;
+    color: white;
+    padding: 0.7% 1%;
+    /* padding: 0 3% 1%; */
+    cursor: pointer;
+    margin-top: 0.5%;
+    /* border: 1px solid red; */
+    position: absolute;
+    /* top: 0; */
+}
+.hgfiyug{
+    display: block;
+}
+.navmob21{
+    font-family: "fields-display", sans-serif;
+    font-weight: 500;
+    font-size: 2.38vw;
+    color: rgba(30, 30, 30, 1);
+}
+@media (max-width:769px) {
+    .navbarHome{
+        display: none;
+    }
+    .navbar1{
+        display: none;
+    }
+  
+    .navmob{
+        display: block;
+        /* display: flex; */
+        width: 100%; 
+        border: 1px solid rgb(14, 9, 9);
+        padding-top: 3%;
+        padding-bottom: 3%;
+        text-align: start;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .innermobile{
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    .navmob1111{
+        visibility: hidden;
+    }
+    
+    .navmob2{
+        width: 100%;
+        text-align: center;
+    }
+    .navmob11{
+          width: 100%;
+          text-align: center;
+          padding-top: 5%;
+          
+    }
+    .navmob11 img{
+        width: 29px;
+        height: 19px;
+    
+    }
+    .navmob21{
+        font-weight: 500;
+        font-size: 30px;
+   
+
+    }
+}

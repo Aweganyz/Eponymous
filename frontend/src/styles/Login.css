@@ -131,8 +131,8 @@
     font-size: 1.04vw;
     line-height: 1.04vw;
     font-weight:400;
-    margin-top: 14%;
-    /* border: 1px solid red;  */
+    margin-top:0;
+    border: 1px solid red; 
     background: transparent;
     width: 100%;
     padding: 3%;

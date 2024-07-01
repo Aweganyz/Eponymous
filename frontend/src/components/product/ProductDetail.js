@@ -141,13 +141,13 @@ export default function ProductDetail() {
                   <div className="lgiuoh">
                     <div>
                     Head Office
-                    <p id="tfiyug"><b>Mumbai</b></p>
+                    <p id="tfiyug">Mumbai</p>
                     </div>
                   </div>
                   <div className="lgiuoh">
                     <div>
                     Established in
-                    <p id="tfiyug"><b>2014</b></p>
+                    <p id="tfiyug">2014</p>
                     </div>
                   </div>
                   <div>

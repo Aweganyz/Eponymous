@@ -25,16 +25,22 @@ export default function Designers() {
 
 
     return (
-        <Fragment>   
+        <Fragment>
+     
 
-             <MetaData title={'Designers'} />
+        <div>
+        <MetaData title={'Designers'} />
             <Header />
             <div className='headerlogin'>
                 <div className='innerlogin'>HOME/ ALL DESINGERS</div>
 
             </div>
 
-            <ProductSearch />
+
+<ProductSearch />
+    
+
+
 
             {loading ? <Loader /> :
                 <>
@@ -45,7 +51,7 @@ export default function Designers() {
 
                             <div className="productiteamone">
 
-{/* <Search /> */}
+                                {/* <Search /> */}
                                 {products && products.map(product => (
                                     <>
 
@@ -73,6 +79,7 @@ export default function Designers() {
                     </div>
                 </>
             }
+        </div>
         </Fragment>
     )
 }

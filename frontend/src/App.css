@@ -175,11 +175,16 @@ a{
 .forbjh label{
   margin-top: 10%;
 }
+
 .productsearch{
+  position: -webkit-sticky;
+position: sticky !important;
+top: 0;
+  z-index: 1;
   display: flex;
   justify-content: center;
-  /* border: 1px solid red; */
 }
+
 .innersearch{
   /* margin-top: -0.5%; */
   width: 90%;
@@ -247,7 +252,7 @@ a{
 /* border: 1px solid red; */
 }
 #hgcuyt1{
-  width: 100%;
+  width: 102%;
   padding-bottom: 3%;
 border-radius: 0;
   border: none;
@@ -307,7 +312,7 @@ border-radius: 0;
   font-size: 0.6vw;
   line-height: 0.6vw;
   font-weight:400 ;
-  color: red;
+  /* color: red; */
   justify-content: end;
 }
 

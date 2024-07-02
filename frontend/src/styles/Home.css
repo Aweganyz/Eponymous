@@ -4,11 +4,17 @@
     justify-content: center;
     /* border: 1px solid red; */
 }
+.aaa{
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+}
 .Homeinner{
     width: 90%;
     /* border: 1px solid red; */
 }
 .Deginershome{
+    
     /* border: 1px solid red; */
     display: flex;
     column-gap: 1.5%;
@@ -26,6 +32,10 @@
     font-family: nair400Semibold;
     font-size: 1.2vw;
     padding: 1% 0;
+}
+#hgfdc{
+    font-family: nair400;
+    font-weight: 300;
 }
 .linethrow{
     width: 100%;

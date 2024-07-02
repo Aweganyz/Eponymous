@@ -41,9 +41,8 @@ export default function ProductSearch() {
     return (
         <Fragment>
 
-            <div className="productsearch">
-                {loading ? <div className="loadersea"><Loader /></div> :
-                    <div className="innersearch">
+            <div className="productsearch" >
+            <div className="innersearch">
                         <div className="seacrchleft">
 
                             <div className="innerlogin22">HOME/ ALL DESINGERS</div>
@@ -76,7 +75,7 @@ export default function ProductSearch() {
                                             {categories.map(category =>
                                                 <>
                                                  <div className="ytrdyfguh">
-                                                 <input  type="radio" id={category} name={category} value={category} onClick={() => {
+                                                 <input  type="radio" id={category} name="gender" value={category} onClick={() => {
                                                         setCategory(category)
                                                     }} key={category}  />
                                                     <label for={category}> {category}</label><br />
@@ -132,7 +131,7 @@ export default function ProductSearch() {
                                             <>
                                              
                                                   <div className="ytrdyfguh1">
-                                                  <input  type="radio" id={seller} name={seller} value={seller} onClick={() => {
+                                                  <input  type="radio" id={seller} name="city" value={seller} onClick={() => {
                                                          setseller(seller)
                                                      }} key={seller}  />
                                                      <label for={seller}> {seller}</label><br />
@@ -463,7 +462,6 @@ export default function ProductSearch() {
                             </div>
                         </div>
                     </div>
-                }
             </div>
 
         </Fragment>

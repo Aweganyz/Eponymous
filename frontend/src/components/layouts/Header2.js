@@ -22,7 +22,7 @@ export default function Header2 () {
 <>
 <Sidebar isopen={isopen} toggle={toggle} />
 
-<div className="navbarHome">
+<div className="navbarHome" >
         <div className='navbarinner'>
         <div className="navleft">
           <div className="navbar-brand1">
@@ -80,7 +80,7 @@ export default function Header2 () {
         </div>
         </div>
     </div>
-<div className='navmob'>
+<div className='navmob' >
           <div className='innermobile'>
           <div className='navmob1' onClick={toggle}>            <div  className='navmob11'><img alt='Eponymous' src='/images/mob1.svg'></img></div>            </div>
          <a href='/'>   <div  className='navmob2'>            <div  className='navmob21'>Eponymous</div>            </div></a>

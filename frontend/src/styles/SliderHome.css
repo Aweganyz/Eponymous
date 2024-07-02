@@ -28,7 +28,7 @@
   
   .bk-slider {
     position: relative;
-    width: 167vw;
+    width: 165vw;
     height: auto;
     margin-top: 4.5%;
     /* padding: 100px 0 100px; */
@@ -57,7 +57,7 @@
     width: auto;
     text-align: center;
     display: flex;
-    height: 38vw;
+    height: 39vw;
     justify-content: center;
     /* border: 1px solid red; */
     align-items: center;
@@ -70,7 +70,7 @@
     height: 28vw;
     /* width: .8vw; */
     /* border: 1px solid red; */
-    margin-bottom:3%;
+    margin-bottom:4.5%;
     /* margin-top: 1%; */
     opacity: 1;
       color:#fff;
@@ -84,7 +84,7 @@
 
   .search{
     margin-left: auto;
-    margin-top: 2.5%;
+    margin-top: 1.8%;
     /* padding-bottom: -10%; */
     /* position: absolute; */
     /* margin-bottom: 2%; */

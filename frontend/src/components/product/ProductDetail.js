@@ -97,9 +97,9 @@ export default function ProductDetail() {
         <>
           <MetaData title={product.name} />
           <div className='headerlogin'>
-            <div className='innerlogin'>HOME/DESIGNERS/NAME SURENAME</div>
+            <div className='innerlogin'>HOME/DESIGNERS/NAME SURNAME</div>
           </div>
-          <div className="innerlogin22" id="sidecontent">HOME/DESIGNERS/NAME SURENAME</div>
+          <div className="innerlogin22" id="sidecontent">HOME/DESIGNERS/NAME SURNAME</div>
 
           <div className="save">
               <button type="button" id="cart_btn" 

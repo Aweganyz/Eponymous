@@ -31,9 +31,12 @@ export default function Home() {
 
     return (
         <>
-        <Header2 />
+<Header2 />
+     
             <div className='Home'>
+                
                 <div className='Homeinner'>
+                    
                    <div className='widowmslider'>
                    <SliderHome />
                    </div>
@@ -74,12 +77,14 @@ export default function Home() {
 
                        <div className='lastfooteend'>
                        <div className='yug8bui'>
-                            <div className='lasjio'><div>Fermentum tristique at</div> <div className='lastright'><img id='jhgfyulast' src='/images/arrow.svg' /><a href='/alldesigners'>View All Designers</a></div></div>
+                            <div className='lasjio'><div id='hgfdc'>Fermentum tristique at</div> <div className='lastright'><img id='jhgfyulast' src='/images/arrow.svg' /><a href='/alldesigners'>View All Designers</a></div></div>
                          </div>
                        </div>
                     </div>
                 </div>
             </div>
+      
+        
         </>
     )
 }

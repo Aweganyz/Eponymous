@@ -18,6 +18,9 @@
     justify-content: center;
 }
 #Acco1{
+   padding-left: 0;
+   padding-right: 0;
+    /* border: 1px solid red; */
     /* width: 100%; */
     font-family: nair400;
     background-color: white;
@@ -28,6 +31,7 @@
     font-weight:300 ;
 }
 .accordion-body{
+    width: 100%;
     background-color: white;
 }
 .innerbod{
@@ -211,10 +215,7 @@
    width: 80%;
   }
 
-  #Acco1{
-    /* border: 1px solid red; */
-    padding-left: 0;
-  }
+ 
   
   .accordion-button:not(.collapsed){
     background-color: white;

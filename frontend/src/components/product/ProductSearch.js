@@ -47,7 +47,7 @@ export default function ProductSearch() {
 
                             <div className="innerlogin22">HOME/ ALL DESINGERS</div>
                             <div className="serinnerlef">
-                                154 Results in
+                               {productsCount} Results in
                             </div>
                             <div className="serariht">
 

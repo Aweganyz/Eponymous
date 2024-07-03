@@ -8,6 +8,7 @@ export default function Search () {
     const [keyword, setKeyword] = useState("")
 
     const searchHandler = (e) => {
+        
         e.preventDefault();
         navigate(`/search/${keyword}`)
 
@@ -18,26 +19,20 @@ export default function Search () {
     }
 
     useEffect(() => {
-        if(location.pathname === '/alldesigners') {
+        if(location.pathname === '/') {
             clearKeyword();
         }
     },[location])
 
     return (
         <form onSubmit={searchHandler}>
-            <div className="input-group">
-                <input
-                type="text"
-                id="search_field"
-                className="form-control"
-                placeholder="Enter Product Name ..."
-                onChange={(e)=>{ setKeyword(e.target.value) }}
-                value={keyword}
-                />
-                <div className="input-group-append">
-                <button id="search_btn" className="btn">
-                    <i className="fa fa-search" aria-hidden="true"></i>
-                </button>
+           
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search" onChange={(e)=>{ setKeyword(e.target.value) }}
+                value={keyword} />
+                <div id='seearch'>
+                    <button id="search_btn" className="btnui">  <img alt='Eponymous' src='/images/search.svg'></img>
+                    </button>
                 </div>
             </div>
         </form>

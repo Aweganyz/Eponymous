@@ -63,6 +63,14 @@ align-items: center;
   line-height: 0.7vw;
   font-weight:300 ;
 }
+.tyrdufguib{
+  font-family: nair400Semibold;
+  font-size: 1.3vw;
+  padding-top: 2%;
+  /* opacity: 0.5; */
+  line-height: 1.6vw;
+  font-weight:500 ;
+}
 .uyfguhgf a{
   font-family: nair400Regu;
   font-size: 1.2vw;
@@ -294,7 +302,7 @@ height: 100%;
   .yugfhb{
     font-family: nair400;
     font-size: 1.3vw;
-    line-height: 1vw;
+    line-height: 1.3vw;
     font-weight:300 ;
   }
   .leftnj1{
@@ -303,21 +311,26 @@ height: 100%;
   .yug{
     padding-top: 5%;
     display: flex;
+    flex-wrap: wrap;
     column-gap: 20px;
   }
   .innerright2{
-    width: 70%;
+    width: 90%;
     padding:  2% 0 ;
     display: flex;
     justify-content: space-between;
   }
 .midline{
-    height: 15vw;
+    height: 40vw;
     width: 1px;
     background-color: rgba(0, 0, 0, 1);
 }
 #address{
   padding: 4% 0;
+  font-family: nair400Regu;
+  font-size: 1.3vw;
+  line-height: 1.6vw;
+  font-weight:400 ;
 }
 .hyjhtigu{
   /* border: 1PX solid RED; */
@@ -330,10 +343,20 @@ height: 100%;
     /* gap: 1.5%; */
     /* flex-wrap: wrap; */
 }
+.gdfy{
+  font-family: nair400Regu;
+  font-size: 1.3vw;
+  line-height: 1.6vw;
+  font-weight:400 ;
+/* margin-top: 3%; */
+}
+.tyrfug{
+  padding-top: 2%;
+}
 .hyjhtigu img{
   width: 9.1vw;
   height: 10.9vw;
-    margin-top: 3%;
+    /* margin-top: 3%; */
 }
 .hgfctuyc{
   padding-left: 2%;

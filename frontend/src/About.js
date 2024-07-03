@@ -14,7 +14,7 @@ function About() {
             <div className='aboutcontent'>
                 <div className='aboutinnercontent'>
                     <h1>Vitae rhoncus bibendum augue mattis
-                        <br /> congue iaculis ac facilisi. Sed nulla eu.</h1>
+                       congue iaculis ac facilisi. Sed nulla eu.</h1>
                     <img src='/images/about.svg' />
 
                     <p className='paraconten'>Urna volutpat non enim nullam eu nunc est eu. Quis neque nisi sagittis vitae nunc sed nunc sed. Viverra viverra scelerisque diam mattis fusce arcu suspendisse in semper. Feugiat ultricies tincidunt viverra amet in massa convallis. Ipsum sit enim at justo cursus sed feugiat feugiat justo. Nec tristique amet elementum leo ridiculus imperdiet urna vulputate sit. Ultrices parturient consequat sit vel duis cursus pellentesque phasellus ornare. Ullamcorper mattis tempus rutrum in interdum auctor. Lorem ut id diam nisl

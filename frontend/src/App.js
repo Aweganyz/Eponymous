@@ -25,6 +25,8 @@ import About from './About';
 import DesignerForm from './components/DesignerForm';
 // import FilterIteam from './components/FilterIteam';
 import SliderHome from './components/SliderHome';
+import Searchproducts from './components/product/Searchproducts';
+import PageNotFound from './PageNotFound';
 
 function App() {
 
@@ -41,6 +43,7 @@ function App() {
                   <ToastContainer theme='dark' />
                   <Routes>
                       <Route path='/' element={<Home/>} />
+                      <Route path='/search/:keyword' element={<Searchproducts />} />
                       <Route path='/about' element={<About />} />
                       {/* <Route path='/multi' element={<FilterIteam />} /> */}
                       <Route path='/joinus' element={<DesignerForm />} />
@@ -51,11 +54,13 @@ function App() {
                       <Route path='/login' element={<Login/>} />
                       <Route path='/register' element={<Register/>} />
                       <Route path='/myprofile' element={<ProtectedRoute><Profile/></ProtectedRoute> } />
+                      {/* <Route path='/myprofilesample' element={<Profile/> } /> */}
                       <Route path='/myprofile/update' element={<ProtectedRoute><UpdateProfile/></ProtectedRoute> } />
                       <Route path='/myprofile/update/password' element={<ProtectedRoute><UpdatePassword/></ProtectedRoute> } />
                       <Route path='/password/forgot' element={<ForgotPassword/> } />
                       <Route path='/password/reset/:token' element={<ResetPassword/> } />
                       <Route path='/saved' element={<Cart/> } />
+                      <Route path='*' element={<PageNotFound /> } />
                  
                   </Routes>
                 </div>

@@ -15,9 +15,9 @@ export default function ProductDetail() {
   const [state, setstate] = useState({
     title: "Profile",
     des: "one",
-    firstpara: "Aliquam feugiat velit mauris dolor hendrerit. Integer fames et enim tortor. Ultricies interdum tempus aliquam consequat enim id elementum nulla. Mauris orci quisque risus nulla praesent tincidunt lectus. Scelerisque lorem platea dui ut lacinia amet convallis sodales dignissim. Id sem enim consectetur viverra viverra turpis. Mattis velit convallis morbi maecenas penatibus. ",
-    secondpara: "Ut nulla nibh sed maecenas ante in. Nisi fames cursus etiam viverra. Lectus morbi molestie lobortis libero id natoque. Faucibus cras sit ut diam libero donec in est egestas.",
-    thirdpara: "At et sed sit viverra feugiat sodales maecenas gravida. Ipsum risus laoreet phasellus tellus condimentum scelerisque sed fermentum. Tortor aliquam."
+    firstpara: "Raw Mango draws from the colors, philosophies and cultures of India to create a unique voice, questioning place and perspective through design. With roots in craft and community, Raw Mango’s relationship with handloom began in 2008 as an investigation of possibilities. As a design house it continues to create new conversations in textile and culture through a range of saris, garments and objects. Created with karigars across Rajasthan, Madhya Pradesh, West Bengal and Varanasi, Raw Mango’s designs innovate upon century old skills, in pursuit of defining a new aesthetic vocabulary.",
+    secondpara: "Sanjay Garg emerged from an upbringing in the village of Mubarikpur, Rajasthan. As a student of textile design, he developed his unique language in 2008, working in Chanderi, Madhya Pradesh. Garg undertook innovations within the yarn and weaving process to create a new visual vocabulary and weaving interventions which, over a decade later, visually define Chanderi today.",
+    thirdpara: "A commitment to experimentation underpins his process, with further explorations in Mashru, Benarasi and Ikat. Always informed by India, Garg constantly engages with established rubric to imagine new possibilities."
   })
   const genius = useRef()
 
@@ -25,36 +25,42 @@ export default function ProductDetail() {
   const { loading, product = {} } = useSelector((state) => state.productState);
   const dispatch = useDispatch();
   const { id } = useParams()
-
+  console.log(product, "ghfchv");
   const datas = [
     {
       title: "Profile",
       des: "one",
       firstpara: "Aliquam feugiat velit mauris dolor hendrerit. Integer fames et enim tortor. Ultricies interdum tempus aliquam consequat enim id elementum nulla. Mauris orci quisque risus nulla praesent tincidunt lectus. Scelerisque lorem platea dui ut lacinia amet convallis sodales dignissim. Id sem enim consectetur viverra viverra turpis. Mattis velit convallis morbi maecenas penatibus. ",
       secondpara: "Ut nulla nibh sed maecenas ante in. Nisi fames cursus etiam viverra. Lectus morbi molestie lobortis libero id natoque. Faucibus cras sit ut diam libero donec in est egestas.",
-      thirdpara: "At et sed sit viverra feugiat sodales maecenas gravida. Ipsum risus laoreet phasellus tellus condimentum scelerisque sed fermentum. Tortor aliquam."
+      thirdpara: "At et sed sit viverra feugiat sodales maecenas gravida. Ipsum risus laoreet phasellus tellus condimentum scelerisque sed fermentum. Tortor aliquam.",
+      fourpara: "- Formal events"
+
     },
     {
       title: "Specialisation",
       des: "two",
-      firstpara: "Specialisation 01",
-      secondpara: "Specialisation 02",
-      thirdpara: "Specialisation 03"
+      firstpara: " Raw Mango focuses on handwoven textiles, particularly Chanderi, Mashru, and Brocade.",
+      secondpara: " The brand offers a wide range of clothing for women, including sarees, lehengas, dresses, and separates",
+      thirdpara: " Raw Mango also has a line of accessories like scarves, stoles, and bags.",
+      fourpara: " The brand has recently expanded into home décor, with a collection of textiles and tableware."
 
     },
     {
       title: "Occasion",
       des: "three",
-      firstpara: "Occasion 01",
-      secondpara: "Occasion 02",
-      thirdpara: "Occasion 03"
+      firstpara: "- Everyday wear",
+      secondpara: "- Festive wear",
+      thirdpara: "- Wedding wear",
+      fourpara: "- Formal events"
     },
     {
       title: "Category",
       des: "three",
-      firstpara: "Category 01",
-      secondpara: "Category 02",
-      thirdpara: "Category 03"
+      firstpara: "- Women's clothing (saris, dresses, separates)",
+      secondpara: "- Accessories (stoles, scarves, jewelry)",
+      thirdpara: "- Home décor (bed linens, cushions)",
+      fourpara: "- Formal events"
+
     },
     {
       title: "Stores",
@@ -92,7 +98,7 @@ export default function ProductDetail() {
 
   return (
     <>
-    <Header />
+      <Header />
       {loading ? <Loader /> :
         <>
           <MetaData title={product.name} />
@@ -102,33 +108,33 @@ export default function ProductDetail() {
           <div className="innerlogin22" id="sidecontent">HOME/DESIGNERS/NAME SURNAME</div>
 
           <div className="save">
-              <button type="button" id="cart_btn" 
-                     disabled={product.stock==0?true:false} 
-                     onClick={()=>{
-                        dispatch(addCartItem(product._id, quantity))
-                        toast('Saved succesfully',{
-                            type: 'success',
-                            position: toast.POSITION.BOTTOM_CENTER
-                        })
-                    }}
-                     className="hgfctuyc"
-                     ></button>
-                <img className="sharevh" src="/images/share.svg" alt="share" />
-          
+            <button type="button" id="cart_btn"
+              disabled={product.stock == 0 ? true : false}
+              onClick={() => {
+                dispatch(addCartItem(product._id, quantity))
+                toast('Saved succesfully', {
+                  type: 'success',
+                  position: toast.POSITION.BOTTOM_CENTER
+                })
+              }}
+              className="hgfctuyc"
+            ></button>
+            <img className="sharevh" src="/images/share.svg" alt="share" />
 
-              </div>
+
+          </div>
           <div className="Singledesginerpage">
 
             <div className="innersingle">
-            
+
               <div className="headingsingle">
                 <div className="yuf7i" id="mobileok">
                   <h1 className="namesin">{product.name}</h1>
-                  <p className="namepara">Quis non id sapien</p>
+                  <p className="namepara">Designer: Sanjay Garg</p>
                 </div>
                 <div className="yuf7iimage">
                   <div className="imagesingke">
-                    <img src="/images/sig.svg" alt="Surya" />
+                    <img src="/images/p11.svg" alt="Surya" />
                   </div>
                 </div>
 
@@ -140,19 +146,19 @@ export default function ProductDetail() {
                 <div className="yuf7i" id="lgiuoh">
                   <div className="lgiuoh">
                     <div>
-                    Head Office
-                    <p id="tfiyug">Mumbai</p>
+                      Head Office
+                      <p id="tfiyug">Bengaluru</p>
                     </div>
                   </div>
                   <div className="lgiuoh">
                     <div>
-                    Established in
-                    <p id="tfiyug">2014</p>
+                      Established in
+                      <p id="tfiyug">2008</p>
                     </div>
                   </div>
                   <div>
-                    <p>Lacus vitae lorem sit ipsum eget
-                      <br /> magna pellentesque imperdiet. </p>
+                    <p>lavelle road 5 & 6, walton road
+                      <br />bengaluru - 560001</p>
                   </div>
                 </div>
 
@@ -182,16 +188,18 @@ export default function ProductDetail() {
                   {
                     state.title === "Profile" ? <div>
                       <p>{state.firstpara}</p>
-                
+                      <h2 className="tyrdufguib">SANJAY GARG</h2>
                       <p className="hgcvyg">{state.secondpara}</p>
                       <p>{state.thirdpara}</p>
                     </div> : ""
                   }
                   {
                     state.title === "Specialisation" ? <div>
-                      <p>{state.firstpara}</p>
-                      <p>{state.secondpara}</p>
-                      <p>{state.thirdpara}</p>
+                      <p ><span className="gdfy">- Textiles:</span>{state.firstpara}</p>
+                   
+                      <p className="tyrfug"><span className="gdfy">- Clothing:</span> {state.secondpara}</p>
+                      <p className="tyrfug"><span className="gdfy">- Accessories:</span>{state.thirdpara}</p>
+                      <p className="tyrfug"><span className="gdfy">- Home:</span>{state.fourpara}</p>
                     </div> : ""
                   }
                   {
@@ -199,6 +207,7 @@ export default function ProductDetail() {
                       <p>{state.firstpara}</p>
                       <p>{state.secondpara}</p>
                       <p>{state.thirdpara}</p>
+                      <p>{state.fourpara}</p>
                     </div> : ""
                   }
                   {
@@ -217,16 +226,38 @@ export default function ProductDetail() {
                           <img src="/images/s.svg" />
                           <img src="/images/s2.svg" />
                           <img src="/images/s3.svg" />
+                          <img src="/images/s4.svg" />
                         </div>
                       </div>
                       <div className="midline"></div>
                       <div className="leftnj">
                         <p className="ordersl"><b>{state.secondpara}</b></p>
                         <div className="line"></div>
-                        <p className="yugfhb" id="address"><b>Address 01:</b></p>
-                        <p className="yugfhb">{state.fouthpara} </p>
-                        <p className="yugfhb" id="address"><b>Address 02:</b></p>
-                        <p className="yugfhb">{state.fithpara}</p>
+                        <p className="yugfhb" id="address"><b>Bengaluru:</b></p>
+                        <p className="yugfhb">
+                        Lavelle Road
+                        <br />
+                        Phone: 080 4121 3161
+                           </p>
+                        <p className="yugfhb" id="address"><b>Chennai (Malligai):</b></p>
+                        <p className="yugfhb">
+                        no. 2/15 cenotaph 1st lane, ganapathy
+                        <br /> colony main road, teynampet 
+                        <br />Phone: 089 2528 6663
+                           </p>
+                        <p className="yugfhb" id="address"><b>Hyderabad:</b></p>
+                        <p className="yugfhb">
+                        6-3-250/1, road number 1, ahmed nagar,
+                        <br /> banjara hills
+                        <br />
+                        Phone: 089 2528 6663
+                           </p>
+                        <p className="yugfhb" id="address"><b>Bengaluru:</b></p>
+                        <p className="yugfhb">
+                        1, reay house, best marg, colaba
+                        <br />Phone: 089 2528 6663
+                           </p>
+                     
                       </div>
                     </div> : ""
                   }
@@ -235,15 +266,15 @@ export default function ProductDetail() {
                   {
                     state.title === "Gallery" ? <div className="hyjhtigu">
                       <img src="/images/g.svg" />
-                      <img src="/images/g.svg" />
-                      <img src="/images/g.svg" />
-                      <img src="/images/g.svg" />
-                      <img src="/images/g.svg" />
-                      <img src="/images/g.svg" />
-                      <img src="/images/g.svg" />
-                      <img src="/images/g.svg" />
-                      <img src="/images/g.svg" />
-                      <img src="/images/g.svg" />
+                      <img src="/images/g1.svg" />
+                      <img src="/images/g2.svg" />
+                      <img src="/images/g3.svg" />
+                      <img src="/images/g4.svg" />
+                      <img src="/images/g5.svg" />
+                      <img src="/images/g6.svg" />
+                      <img src="/images/g7.svg" />
+                      <img src="/images/g8.svg" />
+                      <img src="/images/g9.svg" />
 
                     </div> : ""
                   }
@@ -251,7 +282,7 @@ export default function ProductDetail() {
 
                 </div>
 
-                
+
               </div>
               <div className="linoppp"></div>
 

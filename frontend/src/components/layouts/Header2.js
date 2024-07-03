@@ -3,7 +3,8 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useSelector} from 'react-redux';
 import "../../styles/header.css"
 import Sidebar from './Sidebar/Sidebar';
-// import Search from './Search';
+import Search from './Search';
+
 export default function Header2 () {
    
   const [isopen, setisopen] = useState(false);
@@ -67,9 +68,12 @@ export default function Header2 () {
           :
 
           <div className='navright'>
-             <div className='nav003' id='seearch'>
-              <img alt='Eponymous' src='/images/search.svg'></img></div>
-           
+             {/* <div className='nav003' id='seearch'>
+              <img alt='Eponymous' src='/images/search.svg'></img></div> */}
+              
+         <div id='gfcyuvii'>
+         <Search />
+          </div>
               
               <a href="/login">      <div className='nav003'><img alt='Eponymous' src='/images/profile.svg'></img></div></a>
                      

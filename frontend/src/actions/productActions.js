@@ -8,14 +8,21 @@ export const getProducts = (keyword, price, category, seller, rating, currentPag
         dispatch(productsRequest()) 
         let link = `/api/v1/products?page=${currentPage}`;
 
+        if(keyword) {
+            link += `&keyword=${keyword}`
+            console.log(keyword , "yhgufj");
+        }
+        
         if(category) {
             link += `&category=${category}`
+            console.log(category);
         }
         if(seller) {
             link += `&seller=${seller}`
         }
         
         const { data }  =  await axios.get(link);
+      console.log(data , "setdata");
         dispatch(productsSuccess(data))
     } catch (error) {
         //handle error

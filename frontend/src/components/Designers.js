@@ -7,7 +7,7 @@ import Product from "./product/Product";
 import { toast } from 'react-toastify';
 import "../styles/Designers.css"
 import ProductSearch from "./product/ProductSearch";
-import Search from "./layouts/Search";
+// import Search from "./layouts/Search";
 import Header from "./layouts/Header";
 export default function Designers() {
     const dispatch = useDispatch();

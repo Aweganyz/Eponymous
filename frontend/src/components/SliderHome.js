@@ -2,11 +2,21 @@ import React, { useEffect, useState } from 'react'
 import Swiper from 'swiper/bundle';
 import 'swiper/swiper-bundle.css';
 import "../styles/SliderHome.css"
+import { useLocation, useNavigate } from 'react-router-dom';
 
 function SliderHome() {
   const [width , setwidth] =  useState(145)
   console.log(width , "jyjfug");
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [keyword, setKeyword] = useState("")
 
+  const searchHandler = (e) => {
+      
+      e.preventDefault();
+      navigate(`/search/${keyword}`)
+
+  }
   useEffect(() => {
     const swiper = new Swiper('.swiper', {
       slidesPerView: 3,
@@ -44,11 +54,13 @@ function SliderHome() {
 <div className='search'>
   <h1>Fermentum aenean duis pellentesque dui. Fusce rutrum
     <br /> quis in vulputate. Porttitor faucibus id.</h1>
-
+    <form onSubmit={searchHandler}>
     <div className='searchinput'>
-      <input type='text' placeholder='Search for Designer, Stylist, Footwear, Accessories' />
-      <button>search</button>
+      <input type='text' onChange={(e)=>{ setKeyword(e.target.value) }}
+                value={keyword} placeholder='Search for Designer, Stylist, Footwear, Accessories' />
+      <button id="search_btn" >search</button>
     </div>
+    </form>
 </div>
    </>
   )
